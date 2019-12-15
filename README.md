@@ -1,7 +1,6 @@
 ---
 title: "DDP_Plotly_Slides"
 author: "Frederick Orndorff"
-date: "12/15/2019"
 output: ioslides_presentation
 ---
 
@@ -10,6 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Plotly Assignment
+Date: 12/15/2019
 
 - Create a slideshown in R Markdown
 - Ensure you have an interactive plot
