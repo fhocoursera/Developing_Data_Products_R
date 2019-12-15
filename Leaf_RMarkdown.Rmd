@@ -1,0 +1,34 @@
+---
+title: "Untitled"
+author: "Frederick Orndorff"
+date: "12/15/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Developing Data Products
+## Leaflet Assignment
+
+This document provdes and exapmle of a map created with Leaflet.
+
+Step 1: Install Leaflet
+
+```{r, include = FALSE}
+#install.packages ("leaflet")
+```
+
+Step 2: Create a map and add a marker - this is the White House
+
+```{r}
+library(leaflet)
+my_map <- leaflet() %>%
+    addTiles() %>%
+    addMarkers (lat = 38.8977, lng = -77.0365,
+                popup = "People's House")
+my_map
+```
+
+End of Assignment!!
